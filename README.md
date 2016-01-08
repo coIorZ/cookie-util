@@ -2,11 +2,11 @@
 cookie helper, json supported
 
 ## usage
-cookie();                     // get all cookies  
-cookie('username');           // return value of 'username'  
-cookie('username', 'hello');  // set value for 'username'   
-cookie('user', {name: 'world', age: 1}, {maxAge: 10000});   //support json  
-cookie('user', null)          // delete 'user'   
+cookie(); &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// get all cookies  
+cookie('username'); &emsp;&emsp;&emsp;&emsp;&emsp;// return value of 'username'  
+cookie('username', 'hello'); &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// set value for 'username'   
+cookie('user', {name: 'world', age: 1}, {maxAge: 10000}); &emsp;  //support json  
+cookie('user', null) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// delete 'user'   
 
 ## options
 the third parameter includes  
