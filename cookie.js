@@ -7,8 +7,6 @@
         this[name] = factory(this[name]);
     }
 })('cookie', function (originalCookie) {
-    cookie.orginalCookie = originalCookie;
-    
     function cookie(name, value, options) {
         var argLen = arguments.length;
         if (argLen === 0) {
@@ -19,6 +17,8 @@
             return set(name, value, options);
         }
     }
+    
+    cookie.orginalCookie = originalCookie;  
 
     function all() {
         var str = document.cookie,
